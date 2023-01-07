@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "./App.module.scss";
-import FormContainer from "./components/Form/FormContainer";
+import FormContainer from "./components/FormContainer/FormContainer";
 
 function App() {
   const [count, setCount] = useState(0);
